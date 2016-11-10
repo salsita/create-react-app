@@ -1,23 +1,23 @@
 {
-  "name": "create-react-app",
+  "name": "salsita-crap",
   "version": "0.6.0",
   "keywords": [
     "react"
   ],
   "description": "Create React apps with no build configuration.",
-  "repository": "facebookincubator/create-react-app",
+  "repository": "salsita/create-react-app",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=4"
   },
   "bugs": {
-    "url": "https://github.com/facebookincubator/create-react-app/issues"
+    "url": "https://github.com/salsita/create-react-app/issues"
   },
   "files": [
     "index.js"
   ],
   "bin": {
-    "create-react-app": "./index.js"
+    "salsita-crap": "./index.js"
   },
   "dependencies": {
     "chalk": "^1.1.1",

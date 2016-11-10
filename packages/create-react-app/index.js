@@ -101,7 +101,7 @@ function createApp(name, verbose, version) {
   process.chdir(root);
 
   console.log('Installing packages. This might take a couple minutes.');
-  console.log('Installing react-scripts from npm...');
+  console.log('Installing crap-react-scripts from npm...');
   console.log();
 
   run(root, appName, version, verbose, originalDirectory);
@@ -139,7 +139,7 @@ function run(root, appName, version, verbose, originalDirectory) {
 }
 
 function getInstallPackage(version) {
-  var packageToInstall = 'react-scripts';
+  var packageToInstall = 'crap-react-scripts';
   var validSemver = semver.valid(version);
   if (validSemver) {
     packageToInstall += '@' + validSemver;
@@ -191,7 +191,7 @@ function checkNodeVersion(packageName) {
 function checkAppName(appName) {
   // TODO: there should be a single place that holds the dependencies
   var dependencies = ['react', 'react-dom'];
-  var devDependencies = ['react-scripts'];
+  var devDependencies = ['crap-react-scripts'];
   var allDependencies = dependencies.concat(devDependencies).sort();
 
   if (allDependencies.indexOf(appName) >= 0) {
