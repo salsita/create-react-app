@@ -1,8 +1,8 @@
 {
-  "name": "react-scripts",
-  "version": "0.7.0",
+  "name": "crap-react-scripts",
+  "version": "0.8.0",
   "description": "Configuration and scripts for Create React App.",
-  "repository": "facebookincubator/create-react-app",
+  "repository": "salsita/create-react-app",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=4"
